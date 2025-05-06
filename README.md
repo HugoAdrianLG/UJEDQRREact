@@ -20,6 +20,3 @@ Este sistema permite registrar la asistencia de estudiantes mediante códigos QR
 2. `npm install`
 3. Configurar archivo `.env`
 4. `npm run dev`
-
-## Capturas
-![pantalla](screenshots/login.png)
