@@ -1,0 +1,42 @@
+/* Header.css */
+
+.mobile-header {
+    background-color: #b11830;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .mobile-header .logo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #888;
+  }
+
+  .mobile-header .logo img {
+    
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .mobile-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .mobile-header nav ul li {
+    margin-right: 15px;
+  }
+  
+  .mobile-header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  

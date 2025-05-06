@@ -1,0 +1,149 @@
+/* App.css */
+body, #root {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .header-image {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .user-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: red;
+    border-radius: 15px 0 0 15px;
+    height: 100%;
+  }
+  
+  .user-image {
+    width: 100px; /* Ajusta según sea necesario */
+    height: 100px; /* Ajusta según sea necesario */
+    object-fit: cover;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    margin-bottom: 5px;
+  }
+  
+  .user-box span {
+    font-weight: bold;
+  }
+  
+  .main-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    
+  }
+
+  video {
+    position: center;
+    top: 0;
+    left: 0;
+  }
+  
+  canvas {
+    display: block; /* Asegura que el canvas sea visible */
+  }
+  
+  .larger-form {
+    width: 40%;
+    height: 300px;
+  }
+  
+  .form-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .form-container form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-container label {
+    margin-bottom: 5px;
+  }
+  
+  .rounded-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .red-rounded-button {
+    padding: 10px 15px;
+    background-color: #bd132c; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .red-rounded-button:hover {
+    background-color: darkred;
+  }
+  
+  .bottom-label {
+    text-align: center ;
+    margin-top: 20px; /* Ajusta según sea necesario */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bottom-label label,
+  .bottom-label button {
+    margin-bottom: 10px; /* Espaciado entre el label y el botón */
+  }

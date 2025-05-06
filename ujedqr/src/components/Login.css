@@ -1,0 +1,90 @@
+/* App.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-image: url('./Back.png');
+    background-size:co; 
+  }
+  
+  .header {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .header-image {
+    max-width: auto;
+    height: auto;
+  }
+  
+  .main-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .form-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .form-container form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-container label {
+    margin-bottom: 5px;
+  }
+  
+  .rounded-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+  }
+  
+  .red-rounded-button {
+    padding: 10px 15px;
+    background-color: #bd132c; 
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+  
+  .red-rounded-button:hover {
+    background-color: darkred; 
+  }
+  
+  
+  
+  
+  
+  
+  
+  

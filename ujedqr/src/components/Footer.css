@@ -1,0 +1,16 @@
+footer {
+  width: auto;
+  height: auto;
+  background-color: #b11830;
+  color: white;
+  padding: 10px;
+  @media screen and (max-width: 768px) {
+    width: 95%;
+    height: 100%;
+  }
+}
+
+footer-content{
+  display: flex;
+  justify-content: flex-start;
+}
